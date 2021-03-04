@@ -1,0 +1,29 @@
+1 submit de prueba
+2 Baseline RamdonForest sin fe ni HT seleccion algunos features Sklearn LogLoss: 0.30678
+0.52727
+
+3 baseline xgboost con FE sin HT
+4 xgboost se quitaron features de promedio sin HT
+0.60179
+5 xgboost con mismos features que RF sin ht Sklearn LogLoss: 8.09987
+0.60068
+
+6 xgboost con fe sin ht Sklearn LogLoss: 0.00014
+4.38610
+
+7 xgboost sin param fe sin promedios sin ht Sklearn LogLoss: 0.33675
+0.59095
+
+8 xgboost con fh con HT Sklearn LogLoss: 0.31697
+0.62449
+ 
+9 xgboost con fe sin id con ht gridsearch Sklearn LogLoss: 0.44121
+0.52117
+
+10 lightgbm con fe con ht(gridsearch) Sklearn LogLoss: 0.43709
+0.53635
+
+11 catboost sin hp permite buena performance
+12 voting de xgb y lgbm (experimental)
+
+
